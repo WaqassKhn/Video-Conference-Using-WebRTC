@@ -100,7 +100,7 @@ npm install
 ```
 
 #### 2. Configure Socket Endpoint
-Update `frontend/src/socket/socketClient.js` with the correct backend URL. For local dev it should match where `server.js` runs (default `https://localhost:8181`). For friendlier configuration you can replace the hard-coded string with `import.meta.env.VITE_SOCKET_URL` and define it in `.env`.
+Update `frontend/src/socket/socketClient.js` with the correct IPv4 address of your network.
 
 #### 3. Start servers (two terminals recommended)
 ```bash
